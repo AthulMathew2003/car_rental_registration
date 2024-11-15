@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental Dashboard</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Car Rental Dashboard</h2>
+      <ul>
+        <li><a href="#all">All Vehicles</a></li>
+        <li><a href="#sedans">Sedans</a></li>
+        <li><a href="#suvs">SUVs</a></li>
+        <li><a href="#luxury">Luxury Cars</a></li>
+        <li><a href="#vans">Vans</a></li>
+        <li><a href="#electric">Electric Vehicles</a></li>
+      </ul>
+
+      <div class="filter-section">
+        <h3>Filter by</h3>
+        <input type="text" placeholder="Search by model" class="search-bar" />
+        <select>
+          <option value="">Price Range</option>
+          <option value="low-high">Low to High</option>
+          <option value="high-low">High to Low</option>
+        </select>
+        <select>
+          <option value="">Availability</option>
+          <option value="available">Available</option>
+          <option value="not-available">Not Available</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <header class="dashboard-header">
+        <h1>Vehicle Collection</h1>
+        <p>Explore our extensive range of rental vehicles</p>
+      </header>
+
+      <section class="vehicles" id="vehicles">
+        <h3>Vehicles</h3>
+        <div class="vehicle-grid">
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/664x374/n/cw/ec/29628/polo-exterior-left-rear-three-quarter-2.jpeg?q=80"
+              alt="Car 1"
+            />
+            <h4>Volkswagen Polo</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹1000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/600x337/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-75.jpeg?isig=0&q=80"
+              alt="Car 2"
+            />
+            <h4>Mahindra Scorpio</h4>
+            <p>Spacious and ideal for families</p>
+            <p>Price: ₹2000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://www.cartoq.com/wp-content/uploads/2016/08/bmw_lead_2_7series.jpg"
+              alt="Car 3"
+            />
+            <h4>BMW 7 series</h4>
+            <p>High-end vehicles for premium experience</p>
+            <p>Price: ₹5000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/600x337/n/cw/ec/48542/ciaz-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80"
+              alt="Car 4"
+            />
+            <h4>Maruti Ciaz</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹1500/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Wagon-R/10365/1687580655855/front-left-side-47.jpg"
+              alt="Car 5"
+            />
+            <h4>Maruti Wagon R</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹900/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://www.cartoq.com/wp-content/uploads/2022/12/innova-modification-featured.jpg.webp"
+              alt="Car 6"
+            />
+            <h4>Tayota Innova</h4>
+            <p>Spacious and ideal for families</p>
+            <p>Price: ₹1300/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://comfortmytravel.com/wp-content/uploads/2016/09/Toyota-Fortuner-Automatic.png"
+              alt="Car 7"
+            />
+            <h4>Tayoya Fortuner</h4>
+            <p>High-end vehicles for premium experience</p>
+            <p>Price: ₹2500/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/664x374/n/cw/ec/140809/innova-crysta-exterior-left-front-three-quarter.jpeg?isig=0&q=80"
+              alt="Car 8"
+            />
+            <h4>Tayota Innova Crysta</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹3000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201802/Maruti-Suzuki-New-Swift-Left-Front-Three-Quarter-88877_1.jpeg?size=690:388"
+              alt="Car 9"
+            />
+            <h4>Maruti Swift</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹1000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/178535/c-class-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+              alt="Car 10"
+            />
+            <h4>Mercedes-Benz C-Class</h4>
+            <p>Spacious and ideal for families</p>
+            <p>Price: ₹10000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/seltos-gallery/3.jpg"
+              alt="Car 11"
+            />
+            <h4>Kia Seltos</h4>
+            <p>High-end vehicles for premium experience</p>
+            <p>Price: ₹3500/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/642x361/n/cw/ec/183145/hyundai-i20-left-front-three-quarter5.jpeg?isig=0&q=75"
+              alt="Car 12"
+            />
+            <h4>Hyundai i20</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹1000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://imgd.aeplcdn.com/664x374/n/cw/ec/132427/taisor-exterior-right-front-three-quarter-38.jpeg?isig=0&q=80"
+              alt="Car 13"
+            />
+            <h4>Toyota Urban Cruiser Taisor</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹1000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fc.ndtvimg.com%2F2020-10%2Fcak8ic6g_mahindra-thar-accessories-explained-_625x300_10_October_20.jpg&w=3840&q=75"
+              alt="Car 14"
+            />
+            <h4>Mahindra Thar</h4>
+            <p>Spacious and ideal for families</p>
+            <p>Price: ₹2000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://soulcar.in/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-28-at-11.20.12-AM.jpeg"
+              alt="Car 15"
+            />
+            <h4>Audi A6</h4>
+            <p>High-end vehicles for premium experience</p>
+            <p>Price: ₹10000/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <div class="vehicle-card">
+            <img
+              src="https://i.ndtvimg.com/i/2017-06/maruti-suzuki-dzire-styling_827x510_81498479945.jpg"
+              alt="Car 16"
+            />
+            <h4>Maruti Dzire</h4>
+            <p>Comfortable and fuel-efficient</p>
+            <p>Price: ₹1200/day</p>
+            <br />
+            <button class="rent-button">Rent Now</button>
+          </div>
+          <!-- More vehicle cards can be added here -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
